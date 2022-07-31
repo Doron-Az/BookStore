@@ -1,5 +1,3 @@
-Provide access to NASA's Mars Rover Photos – README
-
 User part:
 
 A site that allows access to NASA missions by api requests.
