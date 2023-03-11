@@ -36,7 +36,7 @@ This will start the Flask development server, and you can access the application
 
 ## License
 
-This project is licensed under the Hadassah College license. You can find the full text of the license in the LICENSE file in the repository.
+This project is licensed under the Hadassah College license. 
 
 ## Known Issues
 
