@@ -1,73 +1,67 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7947930&assignment_repo_type=AssignmentRepo)
+# BookStore
 
-<h2>Doron & Liron's bookstore<h2/>
+BookStore is a simple web application that allows users to browse, search, and purchase books online. The application is built using the Flask web framework and a SQLite database.
 
-## Authors:
-Liron Farzam - lironfa@edu.hac.ac.il <br>
-Doron Azulay - doronaz@edu.hac.ac.il <br>
-<br>
+## Authors
 
+- Doron Azulay - doronazulay9@gmail.com
 
-## General Information:
-<h3>
-An online bookstore that allows the purchase of a variety of books
-</h3><br>
+## Features
 
-<h2>Home:</h2>
+- User authentication: Users can create an account, log in, and log out. Only logged-in users can view their profile, add books to their cart, and complete purchases.
+- Book catalog: The application features a catalog of books, including their titles, authors, descriptions, and cover images. Users can browse and search for books, view their details, and add them to their cart.
+- Shopping cart: Users can add and remove books from their cart, view the contents of their cart, and complete their purchases using a secure checkout process.
+- Order history: Users can view their order history, including the books they've purchased, their total cost, and the date of purchase.
+- Admin panel: Administrators can log in and access an admin panel, where they can add, edit, and delete books from the catalog, view all user accounts, and manage orders.
 
-The home page of the bookstore is the main page of the website.<br>
-It contains a list of all the books in the store.<br>
-By default the page shows the books on sale at the moment, ie the ones with the highest discount.<br>
-You can search for a book by name in the search box<br>
-You can also sort the books by name or to see all the book in the store.<br>
-<br>
-If you are logged in you can also purchase books there is in your cart.<br>
+## Getting Started
 
+To get started with BookStore, you will need to download or clone the repository to your local machine. You will also need to install the required dependencies by running the following command:
 
-<h2>Admin:</h2>
-<p>
-The admin page is the page that allows you to add new books to the store.<br>
-You can add a new book by filling in the form and clicking the submit button.<br>
-You can also edit an existing book by filling in the form and clicking the submit button.<br>
-You can also delete an existing book by clicking the delete button.<br>
+pip install -r requirements.txt
 
-If you are an admin you can also see the list of all purchases sort By date and sum of purchase.<br>
-(if admin Want to purchase a book he must log out and log in as a user)<br>
-</p>
+After installing the dependencies, you can run the application by running the following command:
+
+python app.py
 
 
-<h2>Developer Information:</h2>
+This will start the Flask development server, and you can access the application by visiting http://localhost:5000 in your web browser.
 
-### libraries used for this project:
+## Screenshots
 
-The purpose of the exercise was to experiment Spring Boot in combination
-with Thymeleaf using session listeners and beans.
-Website security is based on Spring Security
-and the HTML page designs are based Thymeleaf.
+Here are some screenshots of the BookStore application:
 
+![Homepage](screenshots/homepage.png)
 
-    Technologies used:
-    
-        HTML
-        CSS
-        JavaScript
-        Bootstrap
-        MySql
-        Spring boot
-        Thymeleaf
-        Git
-        GitHub
+![Book Catalog](screenshots/catalog.png)
 
-## Available Scripts
+![Book Details](screenshots/details.png)
 
+![Shopping Cart](screenshots/cart.png)
 
-Runs the app in the development mode.\
-to run the app in the development mode, run the following command: \
-Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
+![Checkout](screenshots/checkout.png)
 
-Make sure MySql connected and running otherwise the program will not run 
+![Order History](screenshots/orders.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Admin Panel](screenshots/admin.png)
+
+## Credits
+
+- Developer: Doron Azouri
+- Book covers: The book cover images used in the application are from various sources, including Amazon.com and Goodreads.com.
+- Dependencies: The application uses several open-source libraries, including Flask, Flask-Login, Flask-WTF, and SQLite.
+- Icons: The application uses icons from the "Font Awesome" library, which is available under the Creative Commons Attribution 4.0 International license.
+
+## License
+
+This project is licensed under the Hadassah College license. You can find the full text of the license in the LICENSE file in the repository.
+
+## Known Issues
+
+- There are no known issues with the application at this time.
+
+## Future Development
+
+In the future, I plan to add more features to the application, such as user reviews and ratings, recommendations based on user preferences, and integration with external APIs for book data. If you have any suggestions or feedback, feel free to contact me.
 
 
