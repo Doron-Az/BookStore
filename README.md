@@ -18,36 +18,18 @@ BookStore is a simple web application that allows users to browse, search, and p
 
 To get started with BookStore, you will need to download or clone the repository to your local machine. You will also need to install the required dependencies by running the following command:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
+
 
 After installing the dependencies, you can run the application by running the following command:
 
-python app.py
-
+- python app.py
 
 This will start the Flask development server, and you can access the application by visiting http://localhost:5000 in your web browser.
 
-## Screenshots
-
-Here are some screenshots of the BookStore application:
-
-![Homepage](screenshots/homepage.png)
-
-![Book Catalog](screenshots/catalog.png)
-
-![Book Details](screenshots/details.png)
-
-![Shopping Cart](screenshots/cart.png)
-
-![Checkout](screenshots/checkout.png)
-
-![Order History](screenshots/orders.png)
-
-![Admin Panel](screenshots/admin.png)
-
 ## Credits
 
-- Developer: Doron Azouri
+- Developer: Doron Azulay
 - Book covers: The book cover images used in the application are from various sources, including Amazon.com and Goodreads.com.
 - Dependencies: The application uses several open-source libraries, including Flask, Flask-Login, Flask-WTF, and SQLite.
 - Icons: The application uses icons from the "Font Awesome" library, which is available under the Creative Commons Attribution 4.0 International license.
