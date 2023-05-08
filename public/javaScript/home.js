@@ -33,6 +33,7 @@ let marsImagesBrowser = (() => {
 
 /**
  * Input validation module.
+//
  */
 const validatorModule = (function () {
     //global const error message
