@@ -3,7 +3,7 @@ const dbModels = require("../models"); //contain the User model
 
 /**
  * Checks if the user is connected, if so, takes him to the home page and write user name on top page,
- * otherwise - 
+ * otherwise - -
  *      1.if he is not connected: to the login page.
  *      2.If there is a server failure: Error page
  * @returns home page or error page
